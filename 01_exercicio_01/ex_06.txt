@@ -1,0 +1,26 @@
+6. Imagine um jogo qualquer. Identifique o máximo de objetos possíveis e 
+eventuais características (atributos) e comportamentos (métodos) que os 
+mesmos poderiam ter.
+
+    Jogo: Minecraft
+
+    Objetos: 
+            - Village (aldeão)
+            Atributos: idade, profissão, tipoDeCasa, TipoDavila, ehZumbi
+            Métodos: andar(), falar(), trocarObjetos(), morrer(), plantar()
+
+            - Cat (gato)
+            Atributos: idade, corPelagem, corOlhos, adestrado 
+            Métodos: miar(), correr(), seguir(), sentar(), afastarCreeper()
+
+            - Zombie (zumbi)
+            Atributos: idade, biomaDeGeração, ehAfogado, ferramenteDeCombate
+            Métodos: andar(), contaminarVillage()
+
+            - Potion (poção mágica)
+            Atributos: cor, magia, duracao, arremessavel
+            Métodos: aumentarDuracao(), quebrar()
+
+            - Fish (peixe)
+            Atributos: cor, raca, ehComestivel
+            Métodos: nadar()

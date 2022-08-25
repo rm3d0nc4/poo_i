@@ -1,0 +1,10 @@
+2. De forma breve, conceitue atributos e métodos. Pesquise e exemplifique 
+um exemplo de objeto que possua atributos e métodos (notação livre).
+
+    Atributos representam as características de um determinado objeto.
+    Os métodos por sua vez seriam a representação do comportamentos 
+    de um objeto.
+
+    Exemplo: uma clase Humano pode possuir como atributos: nome, altura
+    peso, idade, corDosOlhos, corDoCabelo. Também pode possuir como métodos:
+    caminhar(), comer(), correr() e dormir(). 

@@ -1,0 +1,15 @@
+1. Qual a diferença entre objetos e classes? Exemplifique.
+    
+    Uma classe consiste basicamente em um modelo o qual podem ser 
+    instanciados objetos. Ela possui uma assinatura, representada
+    pelos atributos e métodos, isto é, suas características e
+    comportamentos. 
+    Ex: Se abstraírmos uma vaca para a Orientação a Objetos, 
+    vericaríamos o seguintes atributos: cor, raça, presença
+    de chifres e aptidão. Já os possíveis métodos seriam: 
+    andar, comere beber.
+
+    Já um objeto é uma instância ou representação de uma classe.
+    Ex: Uma instância da classe do tipo vaca seria uma vaca de 
+    cor branca, raça nelore, com chifres e com aptidão de
+    produção de carne.

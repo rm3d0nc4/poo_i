@@ -1,0 +1,18 @@
+4. Considerando os objetos Pessoa e Conta:
+
+a. Seria interessante em um sistema bancário um objeto "conta" possuir uma 
+"pessoa" como um atributo interno representando o titular da conta? 
+
+    Sim. Esse atributo poderia ser um objeto do tipo "pessoa"
+
+
+
+b. Olhando no sentido inverso, seria interessante uma pessoa possuir mais de 
+uma conta como atributo? Que elemento da programação estruturada melhor 
+representaria o conjunto de contas de uma pessoa?
+
+    Não, pois dessa forma, para cada 'conta' que uma 'pessoa' tivesse, seria
+    necessária a criação de mais atributos (conta1, conta2, ...) para
+    guardar cada 'conta' dentro do objeto 'pessoa'. O ideal seria que a classe
+    'pessoa' tivesse um atributo 'contas', que seria uma lista de objetos do
+    tipo 'conta'.
