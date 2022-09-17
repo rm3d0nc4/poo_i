@@ -1,0 +1,5 @@
+3. Pesquise um exemplo na internet em que a tipagem dinâmica pode ser problemático.
+
+    Ex: Temos uma função que recebe dois valores e faz alguma operação matemática (soma, por exemplo). 
+    Caso o programador faça uma chamada dessa função em seu programa, e, erroneamente, passe um  dos valores 
+    diferente do um tipo numérico, haverá um erro durante a execução do programa.

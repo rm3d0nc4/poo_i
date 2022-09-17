@@ -1,0 +1,7 @@
+4. Pesquise e exemplifique com um exemplo porque dizemos que a linguagem C,
+mesmo tendo tipagem estática, possui tipagem fraca.
+
+    A tipagem fraca está associada a conversão de tipos em um programa, ou seja,
+    um valor com um tipo previamente declarado pode ser convertido em outro tipo
+    sem que o programador faça isso manualmente. a linguagem C, apesar de ser 
+    estaticamente tipada, adota o comportamento citado acima.

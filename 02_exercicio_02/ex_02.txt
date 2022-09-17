@@ -1,0 +1,5 @@
+2. Qual o principal problema do uso de tipagem dinâmica?
+
+    Na tipagem dinâmica, há a possibilidade de ser atribuida a alguma estrutura (variável, função, etc.)
+    um dado de um tipo diferente do tipo esperando, ocasionando um erro. Esse erro por sua vez, será 
+    descoberto apenas durante a execução de um programa.

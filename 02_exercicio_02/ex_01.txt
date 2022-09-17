@@ -1,0 +1,6 @@
+1. Qual a diferença entre tipagem dinâmica e tipagem estática?
+
+    Enquanto na tipagem estática o tipo dos dados são explicitamente informado e a checagem
+    de tipos geralmente ocorre em tempo de compilação, na tipagem dinâmica o tipo 
+    é inferido de acordo com o valor recebido de cada dado, e a checagem de tipos é feita
+    em tempo de execução.

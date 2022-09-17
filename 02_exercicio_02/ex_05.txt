@@ -1,0 +1,3 @@
+5. Pesquise e, se encontrar, um exemplo onde o tipo any seria benéfico.
+    Quando o TypeScript não é capaz de inferir o tipo da variável, ele 
+    automaticamente atribui a ela, o tipo any.
