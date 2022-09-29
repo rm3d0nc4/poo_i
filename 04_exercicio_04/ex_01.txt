@@ -1,0 +1,19 @@
+1. Suponha uma classe Hotel que sirva apenas para guardar a quantidade de
+solicitações de reservas feitas conforme abaixo:
+
+class Hotel {
+    quantReservas : number;
+    
+    adicionarReserva() : void {
+        quantReservas++;
+    }
+}
+
+Podemos afirmar que haverá um problema de compilação, pois a variável inteira não
+foi inicializada previamente? Justifique.
+
+    Não. O problema se dará pela falta da palavra reservada this, que deveria acompanhar
+    a variável dentro do método adicionarReserva(). Porém, mesmo que isso acontecesse, o
+    algoritmo não funcionaria como esperado, já que a variável não será inicializada,
+    permanecendo como undefined. dese modo, ao chamar o método, um NAN seria atribuido a
+    variável.
