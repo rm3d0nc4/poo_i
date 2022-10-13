@@ -1,0 +1,26 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const banco_1 = __importDefault(require("./banco"));
+const conta_1 = __importDefault(require("./conta"));
+let conta1 = new conta_1.default('Ana', '1', 1200);
+let conta2 = new conta_1.default('Jose', '2', 3450);
+let conta3 = new conta_1.default('Maria', '3', 5809);
+let banco1 = new banco_1.default();
+banco1.inserir(conta1);
+banco1.inserir(conta2);
+banco1.inserir(conta3);
+banco1.transferir('2', '3', 500);
+banco1.sacar('1', 100);
+banco1.consultar('2');
+banco1.depositar('1', 4000);
+console.log(conta1.numero);
+console.log(conta1.titular);
+console.log(conta1.saldo);
+console.log(conta1.sacar(100));
+console.log(conta1.transferir(conta3, 100));
+console.log(banco1.mediaSaldo());
+console.log(banco1.totalDepositado());
+console.log(banco1.quantidadeContas());
