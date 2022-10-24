@@ -1,7 +1,14 @@
 export default class Calculadora {
-    protected _operando1: number;
-    protected _operando2: number;
+    private _operando1: number;
+    private _operando2: number;
 
+    get operando1(): number {
+        return this._operando1;
+    }
+
+    get operando2(): number {
+        return this._operando2;
+    }
     constructor(operando1: number, operando2: number) {
         this._operando1 = operando1;
         this._operando2 = operando2;

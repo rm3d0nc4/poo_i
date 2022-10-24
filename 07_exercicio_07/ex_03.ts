@@ -7,7 +7,7 @@ class CalculadoraCientifica extends Calculadora {
     }
 
     exponenciar() {
-        return this._operando1 ** this._operando2;
+        return this.operando1 ** this.operando2;
     }
 }
 
@@ -18,6 +18,7 @@ console.log(calculadoraCientifica1.exponenciar());
 console.log(calculadoraCientifica1.soma());
 
 /* 
-    Para fazer com que a operação 'exponenciar' fosse feita, foi necessário o uso
-    do modificador 'protected' para que os atributos pudessem ser acessados na
-    subclasse. Outra forma fazer isso seria criando getters na super classe */
+    Para fazer com que a operação 'exponenciar' fosse feita, foi necessária a criação de
+    métodos de leituras dos atributos na super classe. Outra forma de contornar esse
+    problema seria usando o modificador 'protected' para que os atributos pudessem ser 
+    acessados na subclasse.*/
