@@ -1,0 +1,6 @@
+C; Ana da Silva; 1; 100
+P; Jose Costa; 2; 1000; 2.5
+I; Maria Ramos; 3; 670; 10.5
+C; Beto Guedes; 4; 550
+P; Mila Alves; 5; 8000; 0.55
+I; Fabio Mendes; 6; 16000; 5.4
