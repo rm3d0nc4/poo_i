@@ -1,0 +1,20 @@
+
+O primeiro método é considerado limitado porque não há feedback do
+resultado da operação, impossibilitando do usuário saber se ela
+realmente foi bem sucedida ou não. Também, pensando em um cenário
+onde uma instrução(função/método) dependa de uma outra instrução
+para ser executada, uma possível falha na primeira operação pode
+acarretar falha na segunda, visto que ela não teve feedback se a
+operação o qual ele dependia foi bem sucedido ou não.
+
+Já a limitação do segundo método dá-se pela necessidade de sempre
+ter que validar o retorno de uma instrução, para verificar se o que
+foi retornado foi o resultado esperado, ou um código de erro.
+Outra limitação está relacionada aos valores que são reservaods para
+representar um erro. dependendo da implementação, o retorno de um valor 
+esperado que é igual ao valor reservado para identificar o erro pode causar
+confusão durante a execução do programa.
+
+
+Por fim, o terceiro método está limitado apenas ao console de depuração, visto que,
+em uma aplicação real, a mensagem não aparecerá na interface gráfica. 

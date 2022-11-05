@@ -1,0 +1,48 @@
+
+Tipo 01: Ignorar a operação após um erro
+    Ex: método depositar da classe Banco, onde caso a conta não exista, 
+    o depósito não é feito.
+
+    '''
+    depositar(numero: String, valor: number) {
+        let conta: Conta = this.consultar(numero);
+        
+        if (conta != null) {
+            conta.depositar(valor);
+        }
+    }
+    '''
+
+Tipo 02: retornar código/número de erro
+    Ex: método consultaIndice da classe Banco. Caso o número de conta 
+    informado não exista, o número -1 é retornado.
+
+    '''
+    consultarIndice(numero: String): number {
+        let indice: number = -1;
+            for (let i: number = 0; i < this.contas.length; i++) {
+                if (this.contas[i].numero == numero) {
+                    indice = i;
+                    break;
+                }
+            }
+        return indice;
+    }
+    '''
+Tipo 03: Exibir mensagem de erro
+    Ex: função consultar em App.ts
+
+    '''
+    function consultar(): void {
+        print("\nConsultar conta\n");
+        let numero: string = input('Digite o número da conta: ');
+        let conta: Conta = banco.consultar(numero);
+
+        if(conta != undefined) {
+            print(`\nTitular: ${conta.titular}, numero: ${conta.numero}\n`);
+        } else {
+            print(`\nConta não encontrada!\n`);
+        }
+    }
+    '''
+
