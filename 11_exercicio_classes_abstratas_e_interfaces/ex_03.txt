@@ -1,0 +1,5 @@
+3. Se uma classe que herda de uma abstrata e não implementa os seus métodos, o
+que ocorre?
+
+    O TypeScript dá um erro, informando que os métodos abstratos não foram
+    implementados, e sugere as implementações.

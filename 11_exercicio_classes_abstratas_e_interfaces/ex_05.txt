@@ -1,0 +1,19 @@
+5. Não podemos aplicar o operador new em FiguraGeometrica, mas por que então
+podemos realizar o seguinte código de instanciação:
+
+abstract class FiguraGeometrica {
+    //...
+}
+
+let figuras: FiguraGeometrica[] = new Array();
+
+
+    O código acima está não está instanciando um objeto do tipo FiguraGeometrica,
+    e sim um array de objetos do tipo FiguraGeometrica. Mas isso não quer dizer que
+    naquele array só poderão ser adicionados estritamente instancias da classe
+    FiguraGeometrica. O array aceita também a inserção de objetos do tipo
+    Quadrado, Triangulo, Circulo, etc. Pois eles são filhos da classe abstrata
+    FiguraGeometrica;
+
+    Sintetizando, a classe FiguraGeometrica trata-se de uma generalização, e pode
+    se comportar de multiplas formas (polimorfismo);

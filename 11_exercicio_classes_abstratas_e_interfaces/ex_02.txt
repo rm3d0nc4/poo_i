@@ -1,0 +1,7 @@
+
+2. Explique o que é necessário para que a compilação da ClasseConcreta ocorra
+sem erros:
+
+    Para que não haja erro de compilação, é necessário que a classe ClasseConcreta
+    implemente o método imprimaAlgo(). Caso isso não aconteça, o TypeScript apontará
+    um erro solicitando a implementação do método.

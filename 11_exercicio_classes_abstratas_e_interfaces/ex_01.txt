@@ -1,0 +1,7 @@
+
+1. Podemos instanciar classes abstratas? Justifique.
+
+    Classes abstratas não podem ser instanciadas, ou seja, objetos
+    não podem ser criados a paritr delas. Elas podem ser somente 
+    estendidas e o seus métodos (assinados) são implementados 
+    nas classes filhas.
